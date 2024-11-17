@@ -1,0 +1,101 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: 'Roboto', sans-serif;
+     background-color: #121212;
+     color: #e0e0e0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+     margin: 0;
+ }
+
+ .container {
+     width: 100%;
+     max-width: 800px;
+     background-color: #1e293b;
+     border-radius: 12px;
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+     overflow: hidden;
+ }
+
+ .header {
+     text-align: center;
+     padding: 40px 20px;
+     background-color: #273c5e;
+ }
+
+ .profile-pic {
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+     object-fit: cover;
+     margin-bottom: 20px;
+     border: 3px solid #00bcd4;
+     /* Borda azul */
+ }
+
+ h1 {
+     font-size: 26px;
+     margin-bottom: 8px;
+     color: #00bcd4;
+     /* Azul claro */
+ }
+
+ p {
+     font-size: 16px;
+     margin-bottom: 20px;
+     color: #b0bec5;
+     /* Cinza claro */
+ }
+
+ .about-me-section {
+     padding: 30px 20px;
+     background-color: #1e293b;
+     text-align: left;
+     line-height: 1.6;
+     color: #b0bec5;
+ }
+
+ .about-me-title {
+     font-size: 22px;
+     margin-bottom: 15px;
+     color: #00bcd4;
+ }
+
+ .social-section {
+     padding: 30px 20px;
+     background-color: #273c5e;
+     text-align: center;
+ }
+
+ .social-icons {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     padding: 0;
+ }
+
+ .social-icons li a {
+     color: #e0e0e0;
+     text-decoration: none;
+     font-size: 24px;
+     transition: color 0.3s;
+ }
+
+ .social-icons li a:hover {
+     color: #00e5ff;
+ }
+
+ footer {
+     margin-top: 20px;
+     font-size: 14px;
+     color: #616161;
+     text-align: center;
+ }
